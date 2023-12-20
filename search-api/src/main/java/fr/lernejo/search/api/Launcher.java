@@ -8,8 +8,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class Launcher {
 
     public static void main(String[] args) {
-        //SpringApplication.run(Launcher.class, args);
-
         var ctx = new AnnotationConfigApplicationContext(Launcher.class);
 
         while (true) {}
